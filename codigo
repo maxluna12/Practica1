@@ -1,4 +1,4 @@
-import random
+óimport random
 
 def jugar_adivina_numero():
     while True:  # Bucle principal para repetir el juego
@@ -28,11 +28,4 @@ def jugar_adivina_numero():
         if intentos == max_intentos and guess != numero_secreto:
             print(f"\n¡Perdiste! El número era {numero_secreto}.")
 
-        # Preguntar si quiere jugar de nuevo
-        jugar_nuevamente = input("\n¿Quieres jugar otra vez? (s/n): ").lower()
-        if jugar_nuevamente != 's':
-            print("\n¡Gracias por jugar! Hasta luego.")
-            break
-
-# Iniciar el juego
-jugar_adivina_numero()
+        
