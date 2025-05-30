@@ -1,0 +1,16 @@
+Inicio
+  │
+  ▼
+Generar número secreto (1-50)
+  │
+  ▼
+Bucle de 5 intentos:
+  │
+  ├──► Si acierta: "¡Ganaste!" → Preguntar "¿Jugar otra vez?"
+  │
+  ├──► Si es mayor/menor: Dar pista → Siguiente intento
+  │
+  └──► Si se agotan los intentos: "Perdiste" → Mostrar número → Preguntar "¿Jugar otra vez?"
+  │
+  ▼
+Si respuesta != 's': Terminar juego
