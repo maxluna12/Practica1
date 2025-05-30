@@ -1,7 +1,7 @@
-2óimport random
+import random
 
 def jugar_adivina_numero():
-    while True:  # Bucle principal para repetir el juego
+    while True:  
         numero_secreto = random.randint(1, 50)
         intentos = 0
         max_intentos = 5
@@ -14,7 +14,7 @@ def jugar_adivina_numero():
                 guess = int(input(f"Intento {intentos}: "))
             except ValueError:
                 print("Por favor, ingresa un número válido.")
-                intentos -= 1  # No contar este intento fallido
+                intentos -= 1 
                 continue
 
             if guess == numero_secreto:
